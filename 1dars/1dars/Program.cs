@@ -14,6 +14,17 @@ internal class Program
 
         };
         Console.WriteLine(product);
+
+        Product product1 = new Product()
+        {
+            GuidOfProduct = Guid.NewGuid(),
+            ProductName = "Smartphone",
+            Price = 800,
+            date = DateTime.Now,
+            Description = "A latest model smartphone with advanced features."
+        };
+
+
     } 
 }
 
