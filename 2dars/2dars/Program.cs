@@ -6,7 +6,7 @@ internal class Program
     static List<Book> books = new List<Book>();
     static void Main(string[] args)
     {
-        ListSeed();
+        BookSeed();
         var pages = GetMaxPageBook();
         Console.WriteLine(pages.PageCount);
         //var books = GetMostPage(100);
@@ -42,7 +42,7 @@ internal class Program
         return book;
     }
 
-    static void ListSeed()
+    static void BookSeed()
     {
         books.Add(new Book()
         {
