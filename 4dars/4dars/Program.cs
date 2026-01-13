@@ -1,6 +1,4 @@
-﻿using _4dars.Models;
-
-namespace _4dars;
+﻿namespace _4dars;
 
 internal class Program
 {
