@@ -6,4 +6,6 @@ internal class Program
     {
         
     }
+
+    ы
 }
