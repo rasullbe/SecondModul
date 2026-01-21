@@ -16,5 +16,8 @@ internal class Program
             email = "johndoeisagoodguy@gmail.com",
             phoneNumber = "+1234567890"
         };
+
+
+        Console.WriteLine($"User Created: {user.UserName}, Email: {user.email}");
     }
 }
