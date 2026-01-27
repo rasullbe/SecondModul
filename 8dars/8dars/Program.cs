@@ -7,6 +7,7 @@ internal class Program
     static void Main(string[] args)
     {
         INotificationService notificationService = GetNotification();
+        notificationService.SendNotification();
 
     }
 
